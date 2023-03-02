@@ -1,331 +1,325 @@
 {
-    "cars":[{
-        "name": "Porsche 718 Boxster 2017",
-        "location":"Yosemite National Park",
-        "price-per-day":289,
-        "discount":0,
-        "feartures":[{
-            "icon": "gaz",
-            "type": "type",
-            "value":"Gas (Premium)"
-        },{
-            "icon": "door",
-            "type": "quantity",
-            "value":2,
-            "single": "door",
-            "plural":"doors"
-        },{
-            "icon": "seat",
-            "type": "quantity",
-            "value":2,
-            "single": "seat",
-            "plural":"seats"
-        }],
-        "ratings": {
-            "mically":{
-                "username":"mically",
-                "rating":5
+    "cars": [
+        {
+            "id":0,
+            "name": "Porsche 718 Boxster 2017",
+            "location": "Yosemite National Park",
+            "medias": [
+                {
+                    "type": "image/jpg",
+                    "url": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2016/08/2017-Porsche-718-Boxster-S-108.jpg?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                },
+                {
+                    "type": "image/jpg",
+                    "url": "https://cdn.motor1.com/images/mgl/bwA8l/s3/2017-porsche-718-boxster-s-review.jpg?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                },
+                {
+                    "type": "image/jpg",
+                    "url": "https://hips.hearstapps.com/autoweek/assets/s3fs-public/GT_Silver_718_Boxster_S_021_001.JPG?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                }
+            ],
+            "price-per-day": 289,
+            "discount": 0,
+            "feartures": [
+                {
+                    "icon": "gaz",
+                    "type": "type",
+                    "value": "Gas (Premium)"
+                },
+                {
+                    "icon": "door",
+                    "type": "quantity",
+                    "value": 2,
+                    "single": "door",
+                    "plural": "doors"
+                },
+                {
+                    "icon": "seat",
+                    "type": "quantity",
+                    "value": 2,
+                    "single": "seat",
+                    "plural": "seats"
+                }
+            ],
+            "ratings": {
+                "mically": {
+                    "username": "mically",
+                    "rating": 5
+                },
+                "niceball": {
+                    "username": "niceball",
+                    "rating": 5
+                },
+                "bolman": {
+                    "username": "bolman",
+                    "rating": 4
+                },
+                "drgonbar": {
+                    "username": "drgonbar",
+                    "rating": 3
+                }
             },
-            "niceball":{
-                "username":"niceball",
-                "rating":5
-            },
-            "bolman":{
-                "username":"bolman",
-                "rating":4
-            },
-            "drgonbar":{
-                "username":"drgonbar",
-                "rating":3
-            }
+            "tags": [
+                "text",
+                "image",
+                "sdsd"
+            ]
         },
-        "tags":["text", "image", "sdsd"]
-    },{
-        "name": "Porsche 718 Boxster 2017",
-        "location":"Yosemite National Park",
-        "price-per-day":289,
-        "discount":0,
-        "feartures":[{
-            "icon": "gaz",
-            "type": "type",
-            "value":"Gas (Premium)"
-        },{
-            "icon": "door",
-            "type": "quantity",
-            "value":2,
-            "single": "door",
-            "plural":"doors"
-        },{
-            "icon": "seat",
-            "type": "quantity",
-            "value":2,
-            "single": "seat",
-            "plural":"seats"
-        }],
-        "ratings": {
-            "mically":{
-                "username":"mically",
-                "rating":5
+        {
+            "id":1,
+            "name": "Tesla Model S 2022",
+            "location": "Grand Canyon National Park",
+            "price-per-day": 349,
+            "discount": 10,
+            "medias": [
+                {
+                    "type": "image/jpg",
+                    "url": "https://www.thedrive.com/content/2021/07/tesla-plaid-lead.jpg?quality=30?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                },
+                {
+                    "type": "image/jpg",
+                    "url": "https://hips.hearstapps.com/hmg-prod/images/2022-tesla-model-s-mmp-3-1628540852.png?quality=30?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                },
+                {
+                    "type": "image/jpg",
+                    "url": "https://www.chicagomotorcars.com/imagetag/9799/6/l/Used-2022-Tesla-Model-S-Plaid-Carbon-Fiber-LOADED-Autopilot-ANRKY-Wheels-Lowered-FULL-Front-PPF.jpg?quality=30?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                }
+            ],
+            "feartures": [
+                {
+                    "icon": "gaz",
+                    "type": "type",
+                    "value": "Electric"
+                },
+                {
+                    "icon": "door",
+                    "type": "quantity",
+                    "value": 4,
+                    "single": "door",
+                    "plural": "doors"
+                },
+                {
+                    "icon": "seat",
+                    "type": "quantity",
+                    "value": 5,
+                    "single": "seat",
+                    "plural": "seats"
+                }
+            ],
+            "ratings": {
+                "maxwell": {
+                    "username": "maxwell",
+                    "rating": 5
+                },
+                "jonesy": {
+                    "username": "jonesy",
+                    "rating": 4
+                },
+                "smithy": {
+                    "username": "smithy",
+                    "rating": 4
+                },
+                "garcia": {
+                    "username": "garcia",
+                    "rating": 3
+                }
             },
-            "niceball":{
-                "username":"niceball",
-                "rating":5
-            },
-            "bolman":{
-                "username":"bolman",
-                "rating":4
-            },
-            "drgonbar":{
-                "username":"drgonbar",
-                "rating":3
-            }
+            "tags": [
+                "electric",
+                "luxury",
+                "technology"
+            ]
         },
-        "tags":["text", "image", "sdsd"]
-    },{
-        "name": "Porsche 718 Boxster 2017",
-        "location":"Yosemite National Park",
-        "price-per-day":289,
-        "discount":0,
-        "feartures":[{
-            "icon": "gaz",
-            "type": "type",
-            "value":"Gas (Premium)"
-        },{
-            "icon": "door",
-            "type": "quantity",
-            "value":2,
-            "single": "door",
-            "plural":"doors"
-        },{
-            "icon": "seat",
-            "type": "quantity",
-            "value":2,
-            "single": "seat",
-            "plural":"seats"
-        }],
-        "ratings": {
-            "mically":{
-                "username":"mically",
-                "rating":5
+        {
+            "id":2,
+            "name": "BMW 430i Convertible 2019",
+            "location": "Miami, Florida",
+            "price-per-day": 379,
+            "discount": 5,
+            "medias": [
+                {
+                    "type": "image/jpg",
+                    "url": "https://i.ytimg.com/vi/c_XtqsF6PQ0/maxresdefault.jpg?quality=30?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                },
+                {
+                    "type": "image/jpg",
+                    "url": "https://www.groovecar.com/media/stock/images/stills/2019/bmw/4-series/430i-2dr-convertible/2019-bmw-4-series-430i-2dr-convertible-059-large.jpg?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                },
+                {
+                    "type": "video/yt",
+                    "url": "https://youtu.be/DGcBuQ7JLZs"
+                }
+            ],
+            "feartures": [
+                {
+                    "icon": "gaz",
+                    "type": "type",
+                    "value": "Gas (Premium)"
+                },
+                {
+                    "icon": "door",
+                    "type": "quantity",
+                    "value": 2,
+                    "single": "door",
+                    "plural": "doors"
+                },
+                {
+                    "icon": "seat",
+                    "type": "quantity",
+                    "value": 4,
+                    "single": "seat",
+                    "plural": "seats"
+                }
+            ],
+            "ratings": {
+                "katej": {
+                    "username": "katej",
+                    "rating": 5
+                },
+                "davidt": {
+                    "username": "davidt",
+                    "rating": 4
+                },
+                "joshc": {
+                    "username": "joshc",
+                    "rating": 4
+                },
+                "kristinb": {
+                    "username": "kristinb",
+                    "rating": 3
+                }
             },
-            "niceball":{
-                "username":"niceball",
-                "rating":5
-            },
-            "bolman":{
-                "username":"bolman",
-                "rating":4
-            },
-            "drgonbar":{
-                "username":"drgonbar",
-                "rating":3
-            }
+            "tags": [
+                "luxury",
+                "convertible",
+                "sporty"
+            ]
         },
-        "tags":["text", "image", "sdsd"]
-    },{
-        "name": "Porsche 718 Boxster 2017",
-        "location":"Yosemite National Park",
-        "price-per-day":289,
-        "discount":0,
-        "feartures":[{
-            "icon": "gaz",
-            "type": "type",
-            "value":"Gas (Premium)"
-        },{
-            "icon": "door",
-            "type": "quantity",
-            "value":2,
-            "single": "door",
-            "plural":"doors"
-        },{
-            "icon": "seat",
-            "type": "quantity",
-            "value":2,
-            "single": "seat",
-            "plural":"seats"
-        }],
-        "ratings": {
-            "mically":{
-                "username":"mically",
-                "rating":5
+        {
+            "id":3,
+            "name": "Audi Q5 SUV 2021",
+            "location": "Yellowstone National Park",
+            "price-per-day": 329,
+            "medias": [
+                {
+                    "type": "image/jpg",
+                    "url": "https://cdn.motor1.com/images/mgl/AMWXV/s1/2021-audi-q5-sportback-rendering.jpg?quality=30?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                },
+                {
+                    "type": "image/jpg",
+                    "url": "https://www.forbes.com/wheels/wp-content/uploads/2021/01/2021_Audi_SQ5_Sportback_Gray_SEO.jpg?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                },
+                {
+                    "type": "image/jpg",
+                    "url": "https://autotest.com.ar/wp-content/uploads/2020/11/AUDI-Q5-SPORTBACK-2021.jpg"
+                }
+            ],
+            "discount": 3,
+            "feartures": [
+                {
+                    "icon": "gaz",
+                    "type": "type",
+                    "value": "Gas (Premium)"
+                },
+                {
+                    "icon": "door",
+                    "type": "quantity",
+                    "value": 4,
+                    "single": "door",
+                    "plural": "doors"
+                },
+                {
+                    "icon": "seat",
+                    "type": "quantity",
+                    "value": 5,
+                    "single": "seat",
+                    "plural": "seats"
+                }
+            ],
+            "ratings": {
+                "mattg": {
+                    "username": "mattg",
+                    "rating": 5
+                },
+                "sarahb": {
+                    "username": "sarahb",
+                    "rating": 4
+                },
+                "tomh": {
+                    "username": "tomh",
+                    "rating": 4
+                },
+                "katef": {
+                    "username": "katef",
+                    "rating": 3
+                }
             },
-            "niceball":{
-                "username":"niceball",
-                "rating":5
-            },
-            "bolman":{
-                "username":"bolman",
-                "rating":4
-            },
-            "drgonbar":{
-                "username":"drgonbar",
-                "rating":3
-            }
+            "tags": [
+                "suv",
+                "family-friendly",
+                "spacious"
+            ]
         },
-        "tags":["text", "image", "sdsd"]
-    },{
-        "name": "Porsche 718 Boxster 2017",
-        "location":"Yosemite National Park",
-        "price-per-day":289,
-        "discount":0,
-        "feartures":[{
-            "icon": "gaz",
-            "type": "type",
-            "value":"Gas (Premium)"
-        },{
-            "icon": "door",
-            "type": "quantity",
-            "value":2,
-            "single": "door",
-            "plural":"doors"
-        },{
-            "icon": "seat",
-            "type": "quantity",
-            "value":2,
-            "single": "seat",
-            "plural":"seats"
-        }],
-        "ratings": {
-            "mically":{
-                "username":"mically",
-                "rating":5
+        {
+            "id":4,
+            "name": "Mercedes-Benz C300 Sedan 2020",
+            "location": "Los Angeles, California",
+            "price-per-day": 299,
+            "medias": [
+                {
+                    "type": "image/jpg",
+                    "url": "https://hips.hearstapps.com/hmg-prod/images/2020-mercedes-benz-c-class-mmp-1-1572373169.jpg?quality=30?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                },
+                {
+                    "type": "image/jpg",
+                    "url": "https://www.mercedesbenzcary.com/static/brand-mercedes-benz/vehicle/2020/Mercedes-Benz/C-Class/MRP/01.jpg?crop=0.837xw:0.685xh;0.0785xw,0.265xh&resize=1200:*"
+                }
+            ],
+            "discount": 7,
+            "feartures": [
+                {
+                    "icon": "gaz",
+                    "type": "type",
+                    "value": "Gas (Premium)"
+                },
+                {
+                    "icon": "door",
+                    "type": "quantity",
+                    "value": 4,
+                    "single": "door",
+                    "plural": "doors"
+                },
+                {
+                    "icon": "seat",
+                    "type": "quantity",
+                    "value": 5,
+                    "single": "seat",
+                    "plural": "seats"
+                }
+            ],
+            "ratings": {
+                "jamesp": {
+                    "username": "jamesp",
+                    "rating": 5
+                },
+                "emilyc": {
+                    "username": "emilyc",
+                    "rating": 4
+                },
+                "johnd": {
+                    "username": "johnd",
+                    "rating": 4
+                },
+                "ashleyr": {
+                    "username": "ashleyr",
+                    "rating": 3
+                }
             },
-            "niceball":{
-                "username":"niceball",
-                "rating":5
-            },
-            "bolman":{
-                "username":"bolman",
-                "rating":4
-            },
-            "drgonbar":{
-                "username":"drgonbar",
-                "rating":3
-            }
-        },
-        "tags":["text", "image", "sdsd"]
-    },{
-        "name": "Porsche 718 Boxster 2017",
-        "location":"Yosemite National Park",
-        "price-per-day":289,
-        "discount":0,
-        "feartures":[{
-            "icon": "gaz",
-            "type": "type",
-            "value":"Gas (Premium)"
-        },{
-            "icon": "door",
-            "type": "quantity",
-            "value":2,
-            "single": "door",
-            "plural":"doors"
-        },{
-            "icon": "seat",
-            "type": "quantity",
-            "value":2,
-            "single": "seat",
-            "plural":"seats"
-        }],
-        "ratings": {
-            "mically":{
-                "username":"mically",
-                "rating":5
-            },
-            "niceball":{
-                "username":"niceball",
-                "rating":5
-            },
-            "bolman":{
-                "username":"bolman",
-                "rating":4
-            },
-            "drgonbar":{
-                "username":"drgonbar",
-                "rating":3
-            }
-        },
-        "tags":["text", "image", "sdsd"]
-    },{
-        "name": "Porsche 718 Boxster 2017",
-        "location":"Yosemite National Park",
-        "price-per-day":289,
-        "discount":0,
-        "feartures":[{
-            "icon": "gaz",
-            "type": "type",
-            "value":"Gas (Premium)"
-        },{
-            "icon": "door",
-            "type": "quantity",
-            "value":2,
-            "single": "door",
-            "plural":"doors"
-        },{
-            "icon": "seat",
-            "type": "quantity",
-            "value":2,
-            "single": "seat",
-            "plural":"seats"
-        }],
-        "ratings": {
-            "mically":{
-                "username":"mically",
-                "rating":5
-            },
-            "niceball":{
-                "username":"niceball",
-                "rating":5
-            },
-            "bolman":{
-                "username":"bolman",
-                "rating":4
-            },
-            "drgonbar":{
-                "username":"drgonbar",
-                "rating":3
-            }
-        },
-        "tags":["text", "image", "sdsd"]
-    },{
-        "name": "Porsche 718 Boxster 2017",
-        "location":"Yosemite National Park",
-        "price-per-day":289,
-        "discount":0,
-        "feartures":[{
-            "icon": "gaz",
-            "type": "type",
-            "value":"Gas (Premium)"
-        },{
-            "icon": "door",
-            "type": "quantity",
-            "value":2,
-            "single": "door",
-            "plural":"doors"
-        },{
-            "icon": "seat",
-            "type": "quantity",
-            "value":2,
-            "single": "seat",
-            "plural":"seats"
-        }],
-        "ratings": {
-            "mically":{
-                "username":"mically",
-                "rating":5
-            },
-            "niceball":{
-                "username":"niceball",
-                "rating":5
-            },
-            "bolman":{
-                "username":"bolman",
-                "rating":4
-            },
-            "drgonbar":{
-                "username":"drgonbar",
-                "rating":3
-            }
-        },
-        "tags":["text", "image", "sdsd"]
-    }]
+            "tags": [
+                "luxury",
+                "sedan",
+                "comfortable"
+            ]
+        }
+    ]
 }
